@@ -96,8 +96,10 @@ const HouseDetails = ({ navigation }) => {
             </TouchableOpacity>
             <View style={{ justifyContent: 'center', flex: 0.8 }}>
                 <Image source={{ uri: selectedHome.image }} style={{ height: 200, width: '100%' }} />
-                <Text style={{ fontSize: 24, fontWeight: 'bold' }}>{selectedHome.address}</Text>
-                <Text>{selectedHome.description}</Text>
+                <View style={{marginTop:10}}>
+                    <Text style={{ fontSize: 24, fontWeight: 'bold' }}>{selectedHome.address}</Text>
+                    <Text>{selectedHome.description}</Text>
+                </View>
                 {enabled && (
                     loading ? (
                         <ActivityIndicator size="large" color="#0000ff" />

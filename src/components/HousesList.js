@@ -17,8 +17,10 @@ const HousesList = ({  onSelectHome  }) => {
         <TouchableOpacity onPress={() => onSelectHome(item)}>
             <View style={{ padding: 10, borderBottomWidth: 1, borderBottomColor: '#ddd' }}>
                 <Image source={{ uri: item.image }} style={{ height: 100, width: '100%' }} />
-                <Text>{item.address}</Text>
-                <Text>{item.description}</Text>
+                <View style={{marginTop:10}}>
+                    <Text>{item.address}</Text>
+                    <Text>{item.description}</Text>
+                </View>        
             </View>
         </TouchableOpacity>
     );
