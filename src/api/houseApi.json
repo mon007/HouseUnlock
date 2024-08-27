@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "address": "123 Elm Street",
+      "image": "https://via.placeholder.com/150",
+      "description": "3 bed, 2 bath, 1500 sqft",
+      "latitude": 40.712776,
+      "longitude": -74.005974
+    },
+    {
+      "id": 2,
+      "address": "456 Oak Avenue",
+      "image": "https://via.placeholder.com/150",
+      "description": "4 bed, 3 bath, 2000 sqft",
+      "latitude": 40.712780,
+      "longitude": -74.006000
+    },
+    {
+        "id": 3,
+        "address": "789 Housing colony",
+        "image": "https://via.placeholder.com/150",
+        "description": "3 bed, 2 bath, 1500 sqft",
+        "latitude": 40.712776,
+        "longitude": -74.005974
+      },
+      {
+        "id": 4,
+        "address": "999 Salmon road",
+        "image": "https://via.placeholder.com/150",
+        "description": "4 bed, 3 bath, 2000 sqft",
+        "latitude": 40.712780,
+        "longitude": -74.006000
+      },
+      {
+        "id": 5,
+        "address": "88888 Elm Street",
+        "image": "https://via.placeholder.com/150",
+        "description": "3 bed, 2 bath, 1500 sqft",
+        "latitude": 40.712776,
+        "longitude": -74.005974
+      },
+      {
+        "id": 6,
+        "address": "0990 Oak Avenue",
+        "image": "https://via.placeholder.com/150",
+        "description": "4 bed, 3 bath, 2000 sqft",
+        "latitude": 40.712780,
+        "longitude": -74.006000
+      }
+  ]
+  
