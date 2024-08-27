@@ -1,6 +1,7 @@
 How to run - 
-Android - open project terminal and  type "npm run android"
-iOS - open project terminal and tyoe "npm run ios"
+Android - open project terminal and  type "npm run android".
+
+iOS - open project terminal and type "npm run ios".
 
 
 The code for the app is in the "src" folder. However the initial page where the navigations are added is in the "app--> _layout.tsx" file as it was the default structure in the latest expo version.
